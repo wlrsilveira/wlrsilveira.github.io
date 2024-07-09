@@ -142,10 +142,31 @@ function Education() {
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        FAEL
+                        Rocketseat and Sirius
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2019 - 2021</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2024</div>
+                    <div className=" text-sm md:text-base">Postgraduation Degree in Full Stack Development</div>
+                </li>
+                <li className="list-disc mt-3">
+                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                        UNIFAEL
+                    </div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2020</div>
                     <div className=" text-sm md:text-base">Analysis and Systems Development</div>
+                </li>
+                <li className="list-disc mt-3">
+                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                        FATEC
+                    </div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2014</div>
+                    <div className=" text-sm md:text-base">Technologist, Systems Analysis and Development</div>
+                </li>
+                <li className="list-disc mt-3">
+                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                        FM2S Education and Consulting
+                    </div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2023</div>
+                    <div className=" text-sm md:text-base">Scrum Specialist, Project Management</div>
                 </li>
             </ul>
         </>
@@ -206,13 +227,12 @@ function Skills() {
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list mt-4">
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <span> And ofcourse,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="wagner linux" /> <span>!</span>
+                    <span> And of course,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="wagner linux" /> <span>!</span>
                 </li>
             </ul>
         </>
     )
 }
-
 function Projects() {
     const project_list = [
         {
